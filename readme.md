@@ -37,7 +37,7 @@ city:São Paulo<br>
 state:SP<br>
 country:Brazil <br><br>
 GET /api/v1/trucks (get all truckers)<br>
-GET /api/v1/trucks-notloaded (get all unloaded truckers)<br>
+GET /api/v1/trucks-notloaded (get all unloaded truckers)<br><br>
 POST /api/v1/trucks-filter (get all truckers by specific filters)<br>
 **Example parameters to filter truckers**<br>
 trucks_code:1 (filter by truck type)<br>
