@@ -22,7 +22,7 @@ php -S localhost:8000/api/v1/ -t public <br>
 # Endpoints 
 **You can use Postman to test the endpoints** <br><br>
 POST /api/v1/trucks  (register truckers)<br>
-parameters ex :<br>
+**parameters ex :<br>**
 name:Valaentine<br>
 age:29<br>
 sex:M<br>
