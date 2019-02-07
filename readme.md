@@ -39,12 +39,13 @@ country:Brazil <br><br>
 GET /api/v1/trucks (get all truckers)<br>
 GET /api/v1/trucks-notloaded (get all unloaded truckers)<br>
 POST /api/v1/trucks-filter (get all truckers by specific filters)<br>
-**Example parameters to filter truckers<br>**
+**Example parameters to filter truckers**<br>
+
 trucks_code:1 (filter by truck type)<br>
 cnh:E (filter by truck CNH) <br>
 is_loaded:N (filter by truck is loaded or not)<br>
 date:monthly (filter by date daily,weekly,monthly)<br>
-is_own:N (filter by truck's owners)<br><br>
+is_own:N (filter by truck's owners)<br>
 Date parameter we can filter by one of these values ('daily','weekly','monthly')<br>
 
 #Unit Test
