@@ -1,12 +1,12 @@
 # truckpad
 Truckers registration basic RESTful API build by Lumen framework
-#requirements
+# requirements
 PHP >= 7.0<br />
 OpenSSL PHP Extension<br />
 PDO PHP Extension<br />
 Mbstring PHP Extension<br />
 MYSQL minimum version 5.5 or above
-#Installation
+# Installation
 
 Clone the repository from github  (git clone git@github.com:mohamedrasvi/truckpad.git) <br>
 Run the command (composer install) to download all the dependencies.<br>
@@ -15,11 +15,11 @@ Change the Database credentials to yours on .env file <br>
 Change the variable GMAP_API_KEY value to yours on .env file (Note you must have google api key)
 
 Run the command (php artisan db:seed) to insert the sample data of vehicle's types
-#Serving Your Application
+# Serving Your Application
 To serve your project locally, you may use the Laravel Homestead virtual machine, Laravel Valet, local virtual or the built-in PHP development server: <br>
 php -S localhost:8000/api/v1/ -t public <br>
 
-#Endpoints 
+# Endpoints 
 **You can use Postman to test endpoints** <br><br>
 POST /api/v1/trucks  (register truckers)<br>
 parameters ex :<br>
