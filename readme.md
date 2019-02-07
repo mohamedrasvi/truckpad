@@ -12,9 +12,9 @@ Clone the repository from github  (git clone git@github.com:mohamedrasvi/truckpa
 Run the command (composer install) to download all the dependencies.<br>
 Copy the env.example file to env <br>
 Change the Database credentials to yours on .env file <br>
-Change the variable GMAP_API_KEY value to yours on .env file (Note you must have google api key)
-Run the command (php artisan migrate)
-Run the command (php artisan db:seed) to insert the sample data of vehicle's types
+Change the variable GMAP_API_KEY value to yours on .env file (Note you must have google api key)<br>
+Run the command (php artisan migrate)<br>
+Run the command (php artisan db:seed) to insert the sample data of vehicle's types<br>
 # Serving Your Application
 To serve your project locally, you may use the Laravel Homestead virtual machine, Laravel Valet, local virtual or the built-in PHP development server: <br>
 php -S localhost:8000/api/v1/ -t public <br>
