@@ -13,7 +13,7 @@ Run the command (composer install) to download all the dependencies.<br>
 Copy the env.example file to env <br>
 Change the Database credentials to yours on .env file <br>
 Change the variable GMAP_API_KEY value to yours on .env file (Note you must have google api key)
-
+Run the command (php artisan migrate)
 Run the command (php artisan db:seed) to insert the sample data of vehicle's types
 # Serving Your Application
 To serve your project locally, you may use the Laravel Homestead virtual machine, Laravel Valet, local virtual or the built-in PHP development server: <br>
