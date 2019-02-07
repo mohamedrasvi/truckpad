@@ -20,7 +20,7 @@ To serve your project locally, you may use the Laravel Homestead virtual machine
 php -S localhost:8000/api/v1/ -t public <br>
 
 # Endpoints 
-**You can use Postman to test endpoints** <br><br>
+**You can use Postman to test the endpoints** <br><br>
 POST /api/v1/trucks  (register truckers)<br>
 parameters ex :<br>
 name:Valaentine<br>
