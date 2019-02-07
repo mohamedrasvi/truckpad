@@ -22,7 +22,7 @@ php -S localhost:8000/api/v1/ -t public <br>
 # Endpoints 
 **You can use Postman to test the endpoints** <br><br>
 POST /api/v1/trucks  (register truckers)<br>
-**parameters ex :<br>**
+**Parameters ex :<br>**
 name:Valaentine<br>
 age:29<br>
 sex:M<br>
@@ -39,7 +39,7 @@ country:Brazil <br><br>
 GET /api/v1/trucks (get all truckers)<br>
 GET /api/v1/trucks-notloaded (get all unloaded truckers)<br><br>
 POST /api/v1/trucks-filter (get all truckers by specific filters)<br>
-**Example parameters to filter truckers**<br>
+**Parameters to filter truckers**<br>
 trucks_code:1 (filter by truck type)<br>
 cnh:E (filter by truck CNH) <br>
 is_loaded:N (filter by truck is loaded or not)<br>
