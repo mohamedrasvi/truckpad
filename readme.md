@@ -38,8 +38,8 @@ state:SP<br>
 country:Brazil <br><br>
 GET /api/v1/trucks (get all truckers)<br>
 GET /api/v1/trucks-notloaded (get all unloaded truckers)<br>
-POST /api/v1/trucks-filter (get all truckers by specific filters)<br><br>
-Example parameters to filter truckers<br>
+POST /api/v1/trucks-filter (get all truckers by specific filters)<br>
+**Example parameters to filter truckers<br>**
 trucks_code:1 (filter by truck type)<br>
 cnh:E (filter by truck CNH) <br>
 is_loaded:N (filter by truck is loaded or not)<br>
