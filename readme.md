@@ -19,6 +19,9 @@ Run the command (php artisan db:seed) to insert the sample data of vehicle's typ
 To serve your project locally, you may use the Laravel Homestead virtual machine, Laravel Valet, local virtual or the built-in PHP development server: <br>
 php -S localhost:8000/api/v1/ -t public <br>
 
+# Unit Test
+Note I added vendor/bin/phpunit on composer.json file so you just have to call (composer test) to run the unit test
+
 # Endpoints 
 **You can use Postman to test the endpoints** <br><br>
 POST /api/v1/trucks  (register truckers)<br>
@@ -46,9 +49,6 @@ is_loaded:N (filter by truck is loaded or not)<br>
 date:monthly (filter by date daily,weekly,monthly)<br>
 is_own:N (filter by truck's owners)<br>
 Date parameter we can filter by one of these values ('daily','weekly','monthly')<br>
-
-# Unit Test
-Note I added vendor/bin/phpunit on composer.json file so you just have to call (composer test) to run the unit test
 
 
 
